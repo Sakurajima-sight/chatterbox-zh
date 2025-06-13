@@ -6,8 +6,8 @@ class T3Config:
     配置类T3Config，定义了用于T3模型的各种超参数和配置选项。它包括文本和语音的token、模型的配置以及一些条件编码器的参数。
     """
 
-    start_text_token = 3003  # 文本开始token的ID
-    stop_text_token = 3000  # 文本结束token的ID
+    start_text_token = 0  # 文本开始token的ID
+    stop_text_token = 255  # 文本结束token的ID
     text_tokens_dict_size = 3049  # 文本token字典的大小
     max_text_tokens = 2048  # 最大文本token数量
 
